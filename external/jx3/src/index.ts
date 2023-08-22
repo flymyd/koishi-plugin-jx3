@@ -24,7 +24,7 @@ export const Config: Schema<Config> = Schema.object({
 })
 
 export function apply(ctx: Context, config: Config) {
-  ctx.command('剑三').action((_) => {
+  ctx.command('剑三', '剑网3常用查询').action((_) => {
     return '使用如下指令以查询插件可用功能: help 剑三'
   })
   // 日常任务
