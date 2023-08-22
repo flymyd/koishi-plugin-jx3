@@ -35,7 +35,10 @@
     "dep": "yakumo upgrade",
     "pub": "yakumo publish",
     "dev": "cross-env NODE_ENV=development koishi start -r esbuild-register -r yml-register",
-    "start": "koishi start"
+    "start": "koishi start",
+    "switch-global": "npm config set registry https://registry.npmjs.org",
+    "switch-cn": "npm config set registry https://registry.npmmirror.com",
+    "prepub": "npm run switch-global && npm run build && npm login"
   },
   "devDependencies": {
     "@koishijs/client": "^5.13.1",
