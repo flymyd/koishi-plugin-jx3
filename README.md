@@ -1,7 +1,5 @@
-# Koishi 模板仓库
+# koishi-plugin-jx3
 
-本仓库包含了 Koishi 的模板项目。
+[![npm](https://img.shields.io/npm/v/koishi-plugin-jx3?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-jx3)
 
-## 使用教程
-
-<https://koishi.chat/manual/starter/boilerplate.html>
+jx3 plugin
