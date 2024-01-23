@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-jx3",
   "description": "jx3 plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -17,7 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/flymyd/koishi-plugin-jx3.git"
   },
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
@@ -32,6 +31,8 @@
     "description": {
       "zh": "一个剑网3机器人"
     },
-    "locales": ["zh"]
+    "locales": [
+      "zh"
+    ]
   }
 }

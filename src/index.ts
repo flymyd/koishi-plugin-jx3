@@ -1,7 +1,6 @@
 import {Context, h, Schema} from 'koishi'
 import {dailyTask} from "./api/dailyTask";
-import {DailyTaskPayloadType, DailyTaskTextRespType} from "./types/dailyTask";
-import {PublicRespType} from "./types/publicType";
+import {DailyTaskPayloadType} from "./types/dailyTask";
 import {activityCalendar} from "./api/activityCalendar";
 import {scholarTest} from "./api/scholarTest";
 import {cropPrice} from "./api/cropPrice";

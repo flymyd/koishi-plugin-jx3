@@ -1,5 +1,4 @@
 import qs from "qs";
-import {CONSTS} from "../consts";
 import axios from "axios";
 
 /**
